@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("roboto.eot"); /* IE9 Compat Modes */
+  src: url("roboto.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("roboto.woff") format("woff"),
+    /* Modern Browsers */ url("roboto.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("roboto.svg#svgFontName") format("svg"); /* Legacy iOS */
+}
+
+html {
+  background-color: black;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  flex: auto;
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+  border: 5px solid white;
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-size: 24px;
+  background-color: white;
+}
+
+h1 {
+  font-family: "Roboto";
+  color: white;
+  text-align: center;
+}
